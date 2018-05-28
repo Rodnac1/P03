@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.3.22)  27 MAY 2018 23:34
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.3.22)  28 MAY 2018 08:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,8 +850,7 @@ Now handling font encoding PU ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-No file main.aux.
+)) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -872,6 +871,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 \AtBeginShipoutBox=\box41
 Package hyperref Info: Link coloring OFF on input line 19.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -883,14 +883,12 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
 LaTeX Info: Redefining \nameref on input line 19.
+
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.9} into y
@@ -977,48 +975,94 @@ Missing character: There is no ē in font cmbx12!
 Missing character: There is no ē in font cmbx12!
 Missing character: There is no ķ in font cmbx12!
 Missing character: There is no ī in font cmr10!
-
-
-LaTeX Warning: File `12.png' not found on input line 85.
-
-! Unable to load picture or PDF file '12.png'.
-<to be read again> 
-                   }
-l.85 ...e=1, trim={5cm 5cm 5cm 5cm},clip]{12.png}}
-                                                  
-? 
 File: 12.png Graphic file (type QTm)
-<use  "12.png" >
-! Unable to load picture or PDF file '12.png'.
-<to be read again> 
-                   \egroup 
-l.85 ...e=1, trim={5cm 5cm 5cm 5cm},clip]{12.png}}
-                                                  
-? 
+ <use  "12.png" >
 Missing character: There is no ē in font cmr10!
-[3
+ [3
 
 ]
 Chapter 2.
 Missing character: There is no ā in font cmbx12!
 Missing character: There is no ļ in font cmbx12!
 Missing character: There is no ā in font cmbx12!
+File: 01.png Graphic file (type QTm)
+<use  "01.png" >
 
-LaTeX Warning: File `01.png' not found on input line 93.
+! LaTeX Error: \caption outside float.
 
-! Unable to load picture or PDF file '01.png'.
-<to be read again> 
-                   }
-l.93 ...degraphics[width=12cm, height=6cm]{01.png}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-? x
- 
+l.95             \caption
+                         {Figure 2.1.1: Elektriska shēma gschem vidē}
+? 
+Missing character: There is no ē in font cmr10!
+Missing character: There is no ē in font cmr10!
+File: f.png Graphic file (type QTm)
+<use  "f.png" >
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \caption
+             {Figure 2.1.2: Rezultātu parbaude ar gnetlist}
+? 
+Missing character: There is no ā in font cmr10!
+File: c.png Graphic file (type QTm)
+<use  "c.png" > [4
+
+]
+File: z.png Graphic file (type QTm)
+ <use  "z.png" >
+Missing character: There is no ū in font cmr10!
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
+Missing character: There is no ā in font cmbx12!
+File: a.png Graphic file (type QTm)
+ <use  "a.png" >
+Missing character: There is no ē in font cmr10!
+File: b.png Graphic file (type QTm)
+ <use  "b.png" >
+Missing character: There is no ū in font cmr10!
+Missing character: There is no ā in font cmr10!
+ [7
+
+]
+Missing character: There is no Č in font cmr10!
+Missing character: There is no ā in font cmti10!
+Missing character: There is no ī in font cmti10!
+Missing character: There is no ā in font cmti10!
+Missing character: There is no ī in font cmti10!
+Missing character: There is no Č in font cmr10!
+Missing character: There is no ī in font cmr10!
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+ [8
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+ (./main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 147.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+ ) 
 Here is how much of TeX's memory you used:
- 28750 strings out of 495086
- 656175 string characters out of 6174478
+ 28784 strings out of 495086
+ 656464 string characters out of 6174478
  874037 words of memory out of 5000000
- 31564 multiletter control sequences out of 15000+600000
- 9206 words of font info for 32 fonts, out of 8000000 for 9000
+ 31585 multiletter control sequences out of 15000+600000
+ 9505 words of font info for 33 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 63i,10n,74p,727b,1798s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on main.pdf (4 pages).
+ 63i,11n,74p,727b,1798s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (9 pages).
